@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.20)
+project(lab-06 CXX)
+set(CMAKE_CXX_STANDARD 23)
+add_compile_options(/W3)
+add_compile_options(/std:c++23)
+add_compile_options(/EHsc)
+add_compile_options(/utf-8)
+add_executable(lab-06 p15.cpp p16.cpp main.cpp)
